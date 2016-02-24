@@ -1,0 +1,13 @@
+---
+S3_PROXY: "http://192.168.1.1:3128"
+S3_PROXY_SSL: "http://192.168.1.1:3228"
+S3_URL: "https://s3-eu-west-1.amazonaws.com"
+S3_REGION: "eu-west-1"
+S3_SSL_VERIFY: False
+S3_BUCKET_NAME: "example_bucket"
+S3_IN_DATA_FOLDER: "inbound"
+S3_PROCESSED_DATA_FOLDER: "processed"
+POST_URL: "https://post.example.com:8443"
+POST_PATH: "/upload"
+POST_PROXY: ""
+POST_PROXY_SSL: ""
