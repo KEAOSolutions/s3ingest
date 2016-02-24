@@ -3,7 +3,7 @@ import botocore
 import boto3
 import os
 import requests
-import sleep
+import time
 import datetime
 
 S3_BUCKET_NAME = os.getenv('S3_BUCKET', None)
